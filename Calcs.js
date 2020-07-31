@@ -43,10 +43,15 @@ var fullname = firstname.concat(lastname);
 
 console.log(fullname);
 
-for(var i=1; i<=100; i++){
-    if(i % 3 == 0){
-        console.log("swaggersouls")
+for(var i=1; i<=30; i++){
+    if(i % 15 == 0)
+        console.log("bruh");
+
+    else if(i % 5 == 0){
+        console.log("bruhV3")
+    }
+
     } else{
-        console.log ("Bruh")
+        console.log("bruhV2");
     }
 }
